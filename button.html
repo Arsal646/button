@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .donate-wrapper {
+            background: #15202a;
+            max-height: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+
+            font-family: "Source Sans Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+        }
+
+        .donate-section {
+            background: #15202a;
+            padding: 10px;
+            width: 270px;
+            box-sizing: border-box;
+            margin-top: 5px;
+
+        }
+
+
+
+        .donate-details-main {
+            display: none;
+        }
+
+        .donate-section .donate-intro {
+            font-weight: 700;
+            font-size: 15px;
+            color: #fff;
+            margin: 0;
+        }
+
+        .donate-intro+p {
+            margin-bottom: 3px;
+        }
+
+        .donate-section ul {
+            margin: 0 0 20px;
+            padding: 10px 0 0;
+
+            list-style: none;
+            font-size: 16px !important;
+            list-style: none;
+            margin-top: 15px !important;
+            font-weight: 500;
+        }
+
+        .donate-section p,
+        .donate-section ul {
+            text-align: left;
+            color: RGBA(255, 255, 255, .75);
+        }
+
+        .donate-section a.button,
+        .donate__home-button {
+            background: #ffc43a;
+
+            border-radius: 3px;
+            display: block;
+            color: #2b1d00;
+            font-weight: 600;
+            margin-top: 10px;
+            font-size: 18px;
+            padding: 3px;
+            -webkit-box-shadow: 0 2px 2px RGBA(0, 0, 0, .95);
+            box-shadow: 0 2px 2px RGBA(0, 0, 0, .95);
+            text-align: center;
+            margin: 10px;
+        }
+
+        .donate-section .button {
+            margin: 0 !important;
+            text-align: center;
+        }
+
+        .donate-section a.button,
+        .donate__home-button {
+            padding: 10px 10px;
+            line-height: 20px !important;
+        }
+
+        .donate-wrapper a {
+            text-decoration: none;
+        }
+
+        .donate-section .icon-right {
+            display: none;
+        }
+
+        .donate-section:hover .icon-down {
+            display: none;
+        }
+
+        .donate-section:hover .icon-right {
+            display: inline;
+        }
+
+        .donate-section:hover .donate-details-main {
+            display: block;
+
+            transition: 0.3s;
+
+        }
+
+        .donate-section:hover {
+            position: relative;
+            top: 110px
+        }
+
+        .donate-section .donate-intro {
+            font-weight: 700;
+            font-size: 15px;
+            color: #fff;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="donate-wrapper">
+        <div class="donate-section">
+            <div class="donate-details-main">
+
+
+                <div class="donate-details">
+                    <p class="donate-intro">Donează aici. Susține o presă liberă.</p>
+                    <p class="donate-intro--mobile-hidden">Funcționăm ca organizație non-profit, iar banii rezultați
+                        din contribuțiile cititorilor sunt destinați integral finanțării proiectului G4Media.</p>
+                    <ul class="donate-intro--mobile-hidden">
+                        <li>CONT LEI: RO89RZBR0000060019874867</li>
+                        <li>Deschis la Raiffeisen Bank</li>
+                    </ul>
+                </div>
+
+            </div>
+            <a href="/doneaza" class="button">Donează <i class="fa fa-chevron-down icon-down" aria-hidden="true"></i><i
+                    class="fa fa-chevron-right icon-right" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
